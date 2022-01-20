@@ -27,7 +27,6 @@ export default class CardGameBoard extends Component {
         const {name : bet} = event.target;
         const {deckId, value:previousValue} = this.state
 
-        await drawCardfromDeck(deckId)
     }
 
     render() {
