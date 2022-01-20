@@ -20,4 +20,3 @@ export const createDeckAndDraw = async () => {
 
     return {...CardResponse.cards[0], deckId}
 }
-export 
